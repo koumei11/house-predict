@@ -10,7 +10,6 @@ Give some data set, then it sends back the predicted price of the house.
 To run this app locally, run the commands below.
 
 1. ```make install```
-If pylint error occurs this time, run ```pip install pylint```
 
 2. ```python app.py```
 
