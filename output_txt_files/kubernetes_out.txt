@@ -1,11 +1,21 @@
+First time output:
 pod/houseprediction created
 NAME              READY   STATUS              RESTARTS   AGE
 houseprediction   0/1     ContainerCreating   0          0s
 error: unable to forward port because pod is not running. Current status=Pending
 
 
-
+Second time output:
 Error from server (AlreadyExists): pods "houseprediction" already exists
 NAME              READY   STATUS    RESTARTS   AGE
 houseprediction   1/1     Running   0          16s
 Forwarding from 0.0.0.0:8000 -> 80
+
+
+Prediction output:
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
