@@ -5,9 +5,7 @@ error: unable to forward port because pod is not running. Current status=Pending
 
 
 
-
-
 Error from server (AlreadyExists): pods "houseprediction" already exists
 NAME              READY   STATUS    RESTARTS   AGE
-houseprediction   1/1     Running   0          26s
+houseprediction   1/1     Running   0          16s
 Forwarding from 0.0.0.0:8000 -> 80
